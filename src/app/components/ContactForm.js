@@ -32,6 +32,7 @@ const ContactForm = () => {
     });
     const result = await response.json();
     if (result.success) {
+      alert("Form Sumbitted Succesfully")
       setForm({
           username: "",
           email: "",
