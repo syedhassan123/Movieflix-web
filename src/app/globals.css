@@ -110,8 +110,11 @@ button:hover {
     }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 750px) {
     button {
-        margin-bottom: 70px;
+        /* margin-bottom: 70px; */
+        text-align: center;
+
+
     }
 }

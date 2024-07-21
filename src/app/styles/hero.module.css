@@ -74,30 +74,47 @@
 }
 
 
-@media screen and (max-width:768px) {
+@media screen and (max-width:930px) {
 
     .hero_content{
       order: 1;
       flex-wrap: wrap;
+      text-align: center;
     }
-
+    .hero_content p{
+        margin: 5px -42px;
+    }
 
     .hero_image{
         justify-content: center;
         order: 0;
-        width: 80%;
+        margin-top: 5px;
 
+       
+
+    }
+    .hero_image img{
+        width: 70%;
     }
 
    
     .hero_content h1{
-        font-size:3rem;
+        font-size:2.5rem;
     }
     
     /*!*waves effect *!*/
     /*.custom-shape-divider-bottom-1681647578 {*/
     /*   display: none;*/
     /*}*/
+
+
+}
+
+
+@media screen and (max-width:420px) {
+    .hero_image img{
+        width: 130% !important;
+    }
 
 
 }
