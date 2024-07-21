@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+  "lint:fix": "eslint . --ext .js,.mjs,.cjs,.jsx --fix"
   },
   "dependencies": {
     "mongodb": "^6.8.0",
@@ -18,8 +19,9 @@
     "react-toastify": "^10.0.5"
   },
   "devDependencies": {
-    "eslint": "^9.7.0",
+    "eslint": "^8.57.0",
     "eslint-config-next": "^14.2.5",
+    "eslint-plugin-react": "^7.35.0",
     "globals": "^15.8.0"
   }
 }

@@ -28,7 +28,7 @@ const HeroSection = (props) => {
               </Link>
             </div>
             <div className={heroStyles.hero_image}>
-              <Image src={props.imgUrl} width={450} height={450} />
+              <Image src={props.imgUrl} width={450} height={450}  alt="Hero-img"/>
             </div>
           </div>
         </div>
