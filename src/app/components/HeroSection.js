@@ -27,7 +27,7 @@ const HeroSection = (props) => {
                 <button className={mulish.className}>Explore Movies</button>
               </Link>
             </div>
-            <div className={heroStyles.hero_image}>
+            <div className={heroStyles.hero_image} >
               <Image src={props.imgUrl} width={450} height={450}  alt="Hero-img"/>
             </div>
           </div>

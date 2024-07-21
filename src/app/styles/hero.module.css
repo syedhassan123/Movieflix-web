@@ -78,19 +78,22 @@
 
     .hero_content{
       order: 1;
+      flex-wrap: wrap;
     }
 
 
     .hero_image{
         justify-content: center;
         order: 0;
+        width: 80%;
+
     }
 
-    .hero_image img{
-        width: 50%;
+   
+    .hero_content h1{
+        font-size:3rem;
     }
-
-
+    
     /*!*waves effect *!*/
     /*.custom-shape-divider-bottom-1681647578 {*/
     /*   display: none;*/
