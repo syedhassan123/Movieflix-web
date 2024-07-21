@@ -125,7 +125,7 @@ margin-top: 13px;
     /* hide the original nav menu  */
     .navbarList {
         width: 100vw;
-        height: 100vh;
+        height: 90vh;
         position: absolute;
         top: 0;
         overflow-x: hidden;
@@ -142,11 +142,11 @@ margin-top: 13px;
     }
 
     .navbarList .navbarItem {
-        font-size: 4.2rem;
+        font-size: 4rem;
     }
 
     .navbarList .navbarItem a{
-        font-size: 3.2rem;
+        font-size: 3rem;
     }
 
     .navbarList .navbarItem a:hover {
