@@ -26,7 +26,7 @@ const ContactForm = () => {
   const formHandler = async (e) => {
     e.preventDefault();
     const { username, email, phone, message } = form;
-    const response = await fetch('http://localhost:3000/api/contact', {
+    const response = await fetch('/api/contact', {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
